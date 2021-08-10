@@ -1,0 +1,447 @@
+@import url('https://fonts.googleapis.com/css2?&family=Monda&family=Roboto+Slab&family=Roboto:wght@400&family=Varela+Round&family=Vollkorn&display=swap');
+
+*{
+    margin:0%;
+}
+
+/* FRONT PAGE */
+
+.IPL-FRONT-PAGE-bg{
+    padding-bottom: 30px;
+}
+
+.ipl-heading{
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+    background-color: #193D8C;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.IPL-LOGO{
+    border-radius: 10px;
+    margin: 40px 5%;
+    height: 80%;
+    width: 80%;
+    border: 2px solid #000;
+}
+
+.ipl-description{
+    border-radius: 20px;
+    color: #fff;
+    background-color: #193D8C;
+    padding: 20px;
+    margin: 5% 12%;
+}
+
+.ipl-description-heading{
+    font-family: 'Varela Round', sans-serif;
+}
+
+.ipl-description-para{
+    font-family: 'Roboto Slab', serif;
+}
+
+.view-teams-btn{
+    height: 38px;
+    width: 115px;
+    border-radius: 10px;
+    border-width: 0;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #fff;
+}
+
+/* IPL TEAMS PAGE */
+
+.ipl-teams-container{
+    height: 105vh;
+}
+
+.ipl-teams-heading{
+    text-align: center;
+    background-color: #193D8C;
+    padding: 5px;
+    font-weight: 400;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.team-cards{
+    margin: 20px 80px;
+}
+
+.CARD{
+    width: 280px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    margin: 6px;
+}
+
+.team-title{
+    padding: 12px;
+    color: #fff;
+
+}
+
+.csk-title{
+    color: #000;
+}
+
+.rcb-title{
+    height: 80px;
+}
+
+.team-heading{
+    font-size: 16px;
+    font-family: 'Monda', sans-serif;
+    font-weight: bold;
+}
+
+.team-logo{
+    margin: 6px;
+}
+
+.team-top-section{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.CSK-clr{
+    background-color: #FCFC01;
+}
+
+.RCB-clr{
+    background-color: #CE1F2F;
+}
+
+.MI-clr{
+    background-color: #2666A9;
+}
+
+.DC-clr{
+    background-color: #0F4E99;
+}
+
+.PBKS-clr{
+    background-color: #F6413A;
+}
+
+.SRH-clr{
+    background-color:  #F79202;
+}
+
+.RR-clr{
+    background-color: #EA1B85;
+}
+
+.KKR-clr{
+    background-color: #3A225D;
+}
+
+.GL-clr{
+    background-color: #8D3F18;
+}
+
+.DC-2008-clr{
+    background-color: #D3D4CE;
+}
+
+.team-description{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 14px;
+    padding: 8px;
+    padding-bottom: 0%;
+    margin-bottom:0%;
+    text-align: justify;
+}
+
+.more-info-btn{  
+    color: #000;
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 10px;
+    margin: 10px;
+    width: 100px;
+    height: 34px;
+    border-width: 0;
+
+}
+
+.white-color{
+    color: #fff;
+}
+
+.team-abbr{
+    font-family: 'Monda', sans-serif;
+}
+
+.back-main-page{
+    color: #fff;
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 10px;
+    margin: 0px 90px;
+    width: 95px;
+    height: 34px;
+    border-width: 0;
+    background-color: #000;
+}
+
+
+/* COMMON FOR ALL TEAM MAIN PAGES */
+.TEAM-bg-container{
+    padding-bottom: 30px;
+}
+
+.TEAM-page-title{
+    padding: 10px;
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.TEAM-front-image{
+    border-radius: 10px;
+    margin: 40px 10%;
+    height: 80%;
+    width: 80%;
+}
+
+.TEAM-Container{
+    background-color: #fff;
+    border-radius: 20px;
+    margin: 5% 13%;
+    padding: 20px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.TEAM-Container-heading{
+    text-align: center;
+}
+
+.TEAM-CARD{
+    border: 1px solid #000;
+    border-radius: 10px;
+    margin: 10px 15px;
+    font-family: "Monda";
+}
+
+.Full-squad{  
+    font-family: 'Roboto Slab', serif;
+    border-radius: 10px;
+    margin: 1% 0;
+    border-width: 0;
+    padding: 10px 22px;
+}
+
+.player-description{
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.TEAM-players-image{
+    border-radius: 10px;
+    height: 210px;
+    width: 210px;
+}
+
+.against-team-image{
+    height: 200px;
+    width: 225px;
+    border-radius: 10px;
+}
+
+.player-1st-name, .top-team-score-against {
+    margin: 0;
+    font-size: 110%;
+}
+
+.player-last-name, .top-team-score{
+    font-size: 180%;
+    font-weight: bold;
+    padding: 0;
+}
+
+.HR-clr{
+    border-top: 1px solid #000;
+}
+
+.TEAMS-back-btn{
+    margin: 0 13%;
+}
+
+.FULL-SQUAD-PLAYERS{
+    padding: 30px 0;
+}
+
+.FULL-SQUAD-BACK-BTN{
+    margin: 0 5%;
+}
+
+/* CSK MAIN PAGE COLORS */
+.CSK-page-bg-color-1 {
+    background-color:  #FBE101;
+}
+
+.CSK-page-bg-color-2 {
+    background-color:  #001156;
+}
+
+.CSK-page-bg-color-3 {
+    background-color:  #FDB726;
+}
+
+.CSK-page-color {
+    color: #001156;
+}
+
+
+/* RCB MAIN PAGE COLORS */
+.RCB-page-bg-color-1 {
+    background-color:  #D5152C;
+}
+
+.RCB-page-bg-color-2 {
+    background-color: #1C1C1C;
+}
+
+.RCB-page-bg-color-3 {
+    background-color:  #CE1F2F;
+}
+
+.RCB-page-color {
+    color: #232323;
+}
+
+
+/* SRH MAIN PAGE COLORS */
+.SRH-page-bg-color-1 {
+    background-color:  #E75900;
+}
+
+.SRH-page-bg-color-2 {
+    background-color:  #121A1D;
+}
+
+.SRH-page-bg-color-3 {
+    background-color: #EF4123
+}
+
+.SRH-page-color {
+    color: #121A1D;
+}
+
+.SRH-page-color-1{
+    color: #fff;
+}
+
+
+/* MI MAIN PAGE COLORS */
+.MI-page-bg-color-1 {
+    background-color: #fff;
+}
+
+.MI-page-bg-color-2 {
+    background-color:  #020D2F;
+}
+
+.MI-page-bg-color-3 {
+    background-color:  #0072C3;
+}
+
+.MI-page-color {
+    color: #00285E;
+}
+
+.MI-page-color-1 {
+    color: #004286;
+}
+
+/* KKR MAIN PAGE COLORS */
+.KKR-page-bg-color-1 {
+    background-color: #F1C433;
+}
+
+.KKR-page-bg-color-2 {
+    background-color:  #311F4A;
+}
+
+.KKR-page-bg-color-3 {
+    background-color:  #5A3577;
+}
+
+.KKR-page-color {
+    color: #3B215D;
+}
+
+
+/* RR MAIN PAGE COLORS */
+.RR-page-bg-color-1 {
+    background-color: #EA1985;
+}
+
+.RR-page-bg-color-2 {
+    background-color:  #1D174A;
+}
+
+.RR-page-bg-color-3 {
+    background-color:  #EA1985;
+}
+
+.RR-page-color {
+    color: #1D174A;
+}
+
+.RR-page-color-1 {
+    color: #fff;
+}
+
+
+/* DC MAIN PAGE COLORS */
+.DC-page-bg-color-1 {
+    background-color: #fff;
+}
+
+.DC-page-bg-color-2 {
+    background-color:  #00196B;
+}
+
+.DC-page-bg-color-3 {
+    background-color:  #01519C;
+}
+
+.DC-page-color {
+    color: #282968;
+}
+
+.DC-page-color-1 {
+    color: #0F4E99;
+}
+
+
+
+/* PBKS MAIN PAGE COLORS */
+.PBKS-page-bg-color-1 {
+    background-color: #fff;
+}
+
+.PBKS-page-bg-color-2 {
+    background-color:  #EB6259;
+}
+
+.PBKS-page-bg-color-3 {
+    background-color: #ED1C24;
+}
+
+.PBKS-page-color {
+    color:#F11716;
+}
+
+/* COMMON FOR ALL FULL SQUAD PAGES */
+.FULL-SQUAD-PLAYERS{
+    padding: 30px 0;
+}
+
+.FULL-SQUAD-BACK-BTN{
+    margin: 0 5%;
+}
