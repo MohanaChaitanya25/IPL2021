@@ -1,5 +1,6 @@
 # IPL2021
-Hosted Link to the website - 
+Hosted Link To Website - https://mohanachaitanya25.github.io/IPL2021/ 
+
 *This is an **IPL2021 Static Website** containing information about all 8 teams.*
 
 ## TECHNOLOGIES USED
