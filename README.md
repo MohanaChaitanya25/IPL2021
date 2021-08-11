@@ -11,6 +11,6 @@ This is an **IPL2021 Static Website** containing information about all 8 teams.
 - Visual Studio Code
 
 ## Hosted Link To Website
-mohanachaitanya25.github.io/ipl2021/
+https://mohanachaitanya25.github.io/IPL2021/
 
 **NOTE:** If you are viewing on a mobile device, view it on *Desktop View.*
