@@ -1,5 +1,5 @@
 # IPL2021
-This is an **IPL2021 Static Website** containing information about all 8 teams.
+This is an **IPL2021 Responsive Website** containing information about all 8 teams.
 
 ## Technologies Used
 - HTML 5
